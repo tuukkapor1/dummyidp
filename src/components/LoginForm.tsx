@@ -102,6 +102,7 @@ export function LoginForm({
           firstName: user.firstName,
           lastName: user.lastName,
           spEntityId: app.spEntityId!,
+          acsUrl: app.spAcsUrl!,
           sessionId: sessionId,
           now: now.format(),
           expire: expire.format(),
